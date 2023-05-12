@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.chat-window {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.message-input {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.send-button,
+.geo-button {
+    cursor: pointer;
+}
